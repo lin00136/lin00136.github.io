@@ -1,0 +1,151 @@
+/**********************************************
+ * STARTER CODE
+ **********************************************/
+.shapes, .square-red, .square-blue, .square-green, .square-purple, .square-orange, .circle-red, .circle-blue, .circle-green, .circle-purple, .circle-orange, .pentagon-red, .pentagon-blue, .pentagon-green, .pentagon-purple, .pentagon-orange {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circle-red, .circle-blue, .circle-green, .circle-purple, .circle-orange, .square-red, .square-blue, .square-green, .square-purple, .square-orange {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.circle-red, .circle-blue, .circle-green, .circle-purple, .circle-orange {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.pentagon-red, .pentagon-blue, .pentagon-green, .pentagon-purple, .pentagon-orange {
+  position: relative;
+  width: 54px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: black transparent;
+}
+
+.pentagon-red::before, .pentagon-blue::before, .pentagon-green::before, .pentagon-purple::before, .pentagon-orange::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent black;
+}
+
+/**********************************************
+ * YOUR CODE BELOW
+ **********************************************/
+.square-red {
+  background-color: red;
+  border-color: red;
+}
+
+.square-blue {
+  background-color: blue;
+  border-color: blue;
+}
+
+.square-green {
+  background-color: green;
+  border-color: green;
+}
+
+.square-purple {
+  background-color: purple;
+  border-color: purple;
+}
+
+.square-orange {
+  background-color: orange;
+  border-color: orange;
+}
+
+.circle-red {
+  background-color: red;
+  border-color: red;
+}
+
+.circle-blue {
+  background-color: blue;
+  border-color: blue;
+}
+
+.circle-green {
+  background-color: green;
+  border-color: green;
+}
+
+.circle-purple {
+  background-color: purple;
+  border-color: purple;
+}
+
+.circle-orange {
+  background-color: orange;
+  border-color: orange;
+}
+
+.pentagon-red {
+  border-color: red transparent;
+  background-color: red;
+  border-color: red;
+}
+
+.pentagon-red::before {
+  border-color: transparent transparent red;
+}
+
+.pentagon-blue {
+  border-color: blue transparent;
+  background-color: blue;
+  border-color: blue;
+}
+
+.pentagon-blue::before {
+  border-color: transparent transparent blue;
+}
+
+.pentagon-green {
+  border-color: green transparent;
+  background-color: green;
+  border-color: green;
+}
+
+.pentagon-green::before {
+  border-color: transparent transparent green;
+}
+
+.pentagon-purple {
+  border-color: purple transparent;
+  background-color: purple;
+  border-color: purple;
+}
+
+.pentagon-purple::before {
+  border-color: transparent transparent purple;
+}
+
+.pentagon-orange {
+  border-color: orange transparent;
+  background-color: orange;
+  border-color: orange;
+}
+
+.pentagon-orange::before {
+  border-color: transparent transparent orange;
+}
+/*# sourceMappingURL=style.css.map */
