@@ -1,0 +1,292 @@
+@charset "utf-8";
+@media(max-width:768px){
+.banner{
+			position: relative;
+			margin-bottom: 50px;
+		}
+		.banner img{
+			width: 100%;
+			height: auto;
+		}
+		.banner .tips1{
+			position: absolute;
+			font-size: 20px;
+			font-weight: bold;
+			bottom: 5px;
+			padding-left: 10px;
+			color: #DE5C2C;
+			
+		}
+		.banner .tips1 p{
+			margin-bottom: 0;
+		}
+		.banner .tips2{
+			position: absolute;
+			font-size: 20px;
+			font-weight: bold;
+			bottom: 20px;
+			right: 50px;
+			width: 600px;
+			line-height:20px;
+			text-align: right;
+			padding-left: 30px;
+			color: #fff;
+			font-family: Georgia;
+		}
+		.banner .more{
+			float: right;
+			width: 115px;
+			height: 21px;
+			font-size: 12px;
+			text-align: center;
+			background-color: #DF5628;
+			border-radius: 20px;
+			line-height: 21px;
+		}
+			
+		.banner .more a{
+			color: #FFFAF6;
+		}
+		.content{
+			width: 284px;
+			margin: auto;
+			
+		}
+		.text1{
+			display: none;
+		}
+		
+		.text2{
+			display: none;
+		}
+		.p-text1{
+			
+		}
+		.p-text1 .title{
+			font-size: 33px;
+			font-weight: bold;
+			color: #704E38;
+		}
+		.p-text1 img{
+			width: 100%;
+		}
+		.p-text2{
+			margin-top: 60px;
+			margin-bottom: 50px;
+		}
+		.p-text1 .tet{
+			line-height: 33px;
+			height: 130px;
+			color: #704E38;
+			margin: 15px 0;
+			font-size: 18px;
+			font-weight: bold;
+			overflow: hidden;
+		}
+		.pic2{
+			width: 183px!important;
+		}
+	
+}	
+@media (min-width: 768px) and (max-width:1519px){
+	.p-text1{
+		display: none;
+	}
+	.p-text2{
+		display: none;
+	}
+	.banner{
+			position: relative;
+			margin-bottom: 100px;
+		}
+		.banner img{
+			width: 100%;
+			height: auto;
+		}
+		.banner .tips1{
+			position: absolute;
+			font-size: 35px;
+			font-weight: bold;
+			bottom: 20px;
+			padding-left: 30px;
+			color: #DE5C2C;
+			
+		}
+		.banner .tips2{
+			position: absolute;
+			font-size: 30px;
+			font-weight: bold;
+			bottom: 80px;
+			right: 120px;
+			width: 600px;
+			line-height:40px;
+			text-align: right;
+			padding-left: 30px;
+			color: #fff;
+			font-family: Georgia;
+		}
+		.banner .more{
+			float: right;
+			width: 172px;
+			margin-top: 10px;
+			height: 44px;
+			font-size: 22px;
+			text-align: center;
+			background-color: #DF5628;
+			border-radius: 20px;
+			line-height: 44px;
+		}
+			
+		.banner .more a{
+			color: #FFFAF6;
+		}
+		.content{
+			width: 768px;
+			margin: auto;
+			
+		}
+		.text1{
+		
+			color: #704E38;
+		}
+		.text1 .content > img{
+			width: 275px;
+		}
+		.text1 .title{
+			font-size: 33px;
+			font-weight: bold;
+		}
+		.text1 .tt{
+			font-size: 18px;
+			line-height: 33px;
+			font-weight: bold;
+		}
+		.text1 .tet{
+			float: right;
+			width: 460px;
+		}
+		.text2{
+			overflow: inherit;
+			color: #704E38;
+			margin-top: 140px;
+		}
+		.text2 .tet{
+			float: right;
+			width: 460px;
+			font-size: 18px;
+			line-height: 33px;
+			font-weight: bold;
+		}
+		
+		.text2 .more{
+			display: none;
+		}
+	
+	
+}
+
+@media (min-width: 1520px) { 
+	
+	.p-text1{
+		display: none;
+	}
+	.p-text2{
+		display: none;
+	}
+.banner{
+		position: relative;
+	}
+	.banner img{
+		width: 100%;
+		height: auto;
+	}
+	.banner .tips1{
+		position: absolute;
+		font-size: 88px;
+		font-weight: bold;
+		bottom: 0px;
+		padding-left: 30px;
+		color: #DE5C2C;
+		
+	}
+	.banner .tips2{
+		position: absolute;
+		font-size: 70px;
+		font-weight: bold;
+		bottom: 80px;
+		right: 220px;
+		width: 600px;
+		line-height: 80px;
+		text-align: right;
+		padding-left: 30px;
+		color: #fff;
+		font-family: Georgia;
+	}
+	.banner .more{
+		float: right;
+		width: 486px;
+		margin-top: 20px;
+		height: 114px;
+		font-size: 50px;
+		text-align: center;
+		background-color: #DF5628;
+		border-radius: 20px;
+		line-height: 114px;
+	}
+		
+	.banner .more a{
+		color: #FFFAF6;
+	}
+	.content{
+		width: 1500px;
+		margin: auto;
+		
+	}
+	.text1{
+		
+		color: #704E38;
+		padding: 150px 0 50px;
+	}
+	.text1 .title{
+		padding-bottom: 30px;
+		font-size: 60px;
+		font-weight: bold;
+	}
+	.text1 .tt{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.text1 .tet{
+		float: right;
+		width: 740px;
+	}
+	.text2{
+		margin-top: 100px;
+		height: 178px;
+		overflow: hidden;
+	}
+	.text2 .tet{
+		color: #704E38;
+		float: left;
+		width: 740px;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.text2 .more{
+		float: right;
+		width: 412px;
+		margin-top: 20px;
+		height: 114px;
+		color: #FFFAF6;
+		font-size: 50px;
+		text-align: center;
+		background-color: #DF5628;
+		background-color: ;
+		border-radius: 20px;
+		line-height: 114px;
+		margin-right:150px;
+		margin-top: 50px;
+	}
+	
+	}
+	

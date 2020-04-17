@@ -1,0 +1,166 @@
+@charset "utf-8";
+@media (max-width:768px) { 
+.banner{
+		display: none;
+	}
+	.top-title{
+		width:100%;
+		color: #fff;
+		font-weight: bold;
+		font-size: 25px;
+		margin:30px auto;
+		line-height: 61px;
+		border-radius: 61px;
+		background-color: #DF5628;
+		text-align: center;
+	}
+	
+	.text1{
+		width: 370px;
+		margin: 20px auto;
+	}
+	
+	.item{
+		width: 360px;
+		display: inline-block;
+		color: #704E38;
+		height: 120px;
+		margin-bottom: 100px;
+		margin: 25px;
+	}
+	.item img{
+		width: 191px;
+		float: left;
+	}
+	
+	.item .tet{
+		width: 154px;
+		float: right;
+	}
+	.item .it-title{
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.item .time{
+		display: none;
+	}
+	.item .tt{
+		margin-top: 10px;
+		line-height: 30px;
+		height: 80px;
+		font-weight: bold;
+		overflow: hidden;
+		font-size: 11px;
+		text-align: left;
+	}
+}
+@media (min-width: 768px) and (max-width:1519px) { 
+	.top-title{
+			width: 770px;
+			color: #fff;
+			font-weight: bold;
+			font-size: 35px;
+			margin:  50px auto;
+			line-height: 62px;
+			border-radius: 62px;
+			background-color: #DF5628;
+			text-align: center;
+		}
+	.banner{
+		display: none;
+	}
+	.text1{
+		width: 750px;
+		margin: 100px auto;
+	}
+	
+	.item{
+		display: inline-block;
+		color: #704E38;
+		height: 400px;
+		margin-bottom: 100px;
+		text-align: center;
+		margin: 25px;
+	}
+	.item img{
+		width: 100%;
+	}
+	.item:nth-child(odd){
+		width: 310px;
+		
+	}	
+	.item:nth-child(even){
+		width: 317px;
+	}
+	.item .tet{
+		padding-top: 50px;
+	}
+	.item .it-title{
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.item .time{
+		display: none;
+	}
+	.item .tt{
+		margin-top: 20px;
+		line-height: 30px;
+		height: 55px;
+		font-weight: bold;
+		overflow: hidden;
+		font-size: 11px;
+		text-align: left;
+	}
+}
+@media (min-width: 1520px) { 
+.top-title{
+		display: none;
+	}
+.banner{
+	padding: 50px 0;
+	text-align: center;
+}
+.banner img{
+	min-width: 1520px;
+}
+.text1{
+	width: 1600px;
+	margin: auto;
+}
+
+.item{
+	display: inline-block;
+	color: #704E38;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.it1{
+	width: 499px;
+}
+.it2{
+	width: 496px;
+	margin: 0 19px;
+}
+.it3{
+	width: 559px;
+}
+.item .tet{
+	padding-top: 50px;
+}
+.item .it-title{
+	font-size: 30px;
+	font-weight: bold;
+}
+.item .time{
+	padding: 10px 0;
+	font-size: 12px;
+}
+.item .tt{
+	margin-top: 20px;
+	line-height: 30px;
+	height: 88px;
+	overflow: hidden;
+	font-size: 20px;
+	text-align: left;
+}
+}

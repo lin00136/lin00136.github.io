@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+body{
+	font-family: Arial;
+}
+@media (max-width: 768px) { 
+	.top-title{
+		width:100%;
+		color: #fff;
+		font-weight: bold;
+		font-size: 25px;
+		margin:30px auto;
+		line-height: 61px;
+		border-radius: 61px;
+		background-color: #DF5628;
+		text-align: center;
+	}
+		.text1{
+			width: 310px;
+			margin: auto;
+		}
+		.text1 img{
+			display: block;
+			margin: 20px auto 50px;
+			width: 308px;
+		}
+		.text1 .right{
+			width: 240px;
+			height: 110px;
+			color: #704E38;
+			font-size: 16px;
+			overflow: hidden;
+			line-height: 33px;
+		}
+		.text1 span{
+			font-size: 20px;
+			display: inline-block;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.form{
+			margin-top: 50px;
+		}
+		.form > p{
+			text-align: center;
+			font-size: 35px;
+			font-family: Georgia;
+			font-weight: bold;
+			color: #704E38;
+		}
+		.form form{
+			width: 383px;
+			height: 316px;
+			border-radius: 30px;
+			margin: 20px auto;
+			background-color: #DF5628;
+		}
+		
+		label{
+			font-size: 18px;
+			color: #fff;
+			padding-left: 30px;
+			display: block;
+		}
+		form div p{
+			text-align: center;
+		}
+		input{
+			display: inline-block;
+			width: 313px;
+			height: 31px;
+			margin: 10px 0;
+			line-height: 31x;
+		}
+		button{
+			border: none;
+			width: 198px;
+			font-family: Arial;
+			height: 32x;
+			font-size: 18px;
+			font-weight: bold;
+			color: #FFFAF6;
+			margin-right: 80px;
+			text-align: center;
+			margin-top: 10px;
+			line-height: 30px;
+			background-color: #E29664;
+		}
+		form > div:nth-child(1){
+			padding-top: 30px!important;
+		}
+}
+@media (min-width: 768px) and (max-width:1519px){ 
+.top-title{
+		width: 770px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 35px;
+		margin: 50px auto;
+		line-height: 62px;
+		border-radius: 62px;
+		background-color: #DF5628;
+		text-align: center;
+	}
+	.text1{
+		width: 750px;
+		margin: auto;
+	}
+	.text1 img{
+		width: 448px;
+		height: 242px;
+		padding: 20px 0;
+	}
+	.text1 .right{
+		width: 240px;
+		height: 268px;
+		float: right;
+		color: #704E38;
+		font-size: 16px;
+		overflow: hidden;
+		line-height: 33px;
+	}
+	.text1 span{
+		font-size: 25px;
+		display: inline-block;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.form{
+		margin-top: 50px;
+	}
+	.form > p{
+		text-align: center;
+		font-size: 28px;
+		font-family: Georgia;
+		font-weight: bold;
+		color: #704E38;
+	}
+	.form form{
+		width: 471px;
+		height: 320px;
+		border-radius: 30px;
+		margin: 20px auto;
+		background-color: #DF5628;
+	}
+	
+	label{
+		font-size: 18px;
+		color: #fff;
+		padding-left: 40px;
+		display: block;
+	}
+	form div p{
+		text-align: center;
+	}
+	input{
+		display: inline-block;
+		width: 370px;
+		height: 31px;
+		margin: 10px 0;
+		line-height: 31x;
+	}
+	button{
+		border: none;
+		width: 116px;
+		font-family: Arial;
+		height: 30x;
+		font-size: 18px;
+		font-weight: bold;
+		color: #FFFAF6;
+		margin-right: 50px;
+		text-align: center;
+		margin-top: 10px;
+		line-height: 30px;
+		background-color: #E29664;
+	}
+	form > div:nth-child(1){
+		padding-top: 30px!important;
+	}
+
+}
+@media (min-width: 1520px) { 
+.top-title{
+		width: 1520px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 66px;
+		margin: 100px auto;
+		line-height: 149px;
+		background-color: #DF5628;
+		text-align: center;
+		
+	}
+	.text1{
+		width: 1520px;
+		margin: auto;
+	}
+	.text1 img{
+		padding: 20px 0;
+	}
+	.text1 .right{
+		width: 480px;
+		height: 651px;
+		float: right;
+		color: #704E38;
+		font-size: 20px;
+		line-height: 33px;
+	}
+	.text1 span{
+		font-size: 40px;
+		display: inline-block;
+		font-weight: bold;
+		margin-bottom: 50px;
+	}
+	.form{
+		margin-top: 100px;
+	}
+	.form > p{
+		text-align: center;
+		font-size: 70px;
+		font-family: Georgia;
+		font-weight: bold;
+		color: #704E38;
+	}
+	.form form{
+		width: 999px;
+		height: 656px;
+		border-radius: 50px;
+		margin: 50px auto;
+		background-color: #DF5628;
+	}
+	
+	label{
+		font-size: 33px;
+		color: #fff;
+		padding-left: 90px;
+		display: block;
+	}
+	form div p{
+		text-align: center;
+	}
+	input{
+		display: inline-block;
+		width: 785px;
+		height: 64px;
+		margin: 30px 0;
+		line-height: 64px;
+	}
+	button{
+		border: none;
+		width: 327px;
+		font-family: Arial;
+		height: 48px;
+		margin-top: 20px;
+		font-size: 30px;
+		font-weight: bold;
+		color: #FFFAF6;
+		margin-right: 100px;
+		text-align: center;
+		line-height: 48px;
+		background-color: #E29664;
+	}
+
+}
