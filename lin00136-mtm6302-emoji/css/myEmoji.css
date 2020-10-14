@@ -1,0 +1,29 @@
+.my-emoji{
+    margin: 0 auto;
+}
+.my-emoji ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.my-emoji ul li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 2em;
+}
+.my-emoji ul li:last-child{
+    margin-right: auto;
+}
+.my-emoji ul li span {
+    
+    font-size: 1em;
+}
+
+.my-emoji ul li code {
+    display: block;
+    margin-top: 0.5em;
+}
