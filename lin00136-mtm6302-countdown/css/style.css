@@ -1,0 +1,36 @@
+h1{
+    margin: 1em 0;
+}
+#countdown {
+    padding: 2em 0;
+}
+
+.countdown-wrapper {
+    text-align: center;
+}
+
+.countdown-wrapper span {
+    display: inline-block;
+    padding: .5em;
+    font-size: 3em;
+    background-color: #666666;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.countdown-wrapper span.f {
+    color: #000000;
+    background-color: #ffffff;
+    padding: .5em .25em;
+}
+
+.change {
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.change .btn.btn-default {
+
+    background-color: #666666;
+    color: #ffffff;
+}
