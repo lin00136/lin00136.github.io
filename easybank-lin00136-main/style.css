@@ -1,0 +1,17 @@
+.main {
+  overflow: hidden;
+}
+
+.section {
+  padding: 100px 15px;
+}
+
+.footer {
+  padding: 50px 15px;
+}
+
+@media (max-width: 991px) {
+  .intro-image {
+    max-width: 100%;
+  }
+}
