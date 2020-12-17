@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .slideout-menu {
+            right: auto;
+        }
+
+        .menu {
+            padding: 1em;
+            color: #ffffff;
+            background-color: #333333;
+            background-image: linear-gradient(145deg, #1D1F20, #404348);
+        }
+
+        #panel {
+            min-height: 100%;
+            width: 100%;
+            background-color: #000000;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .js-slideout-toggle {
+            position: absolute;
+            top: 1em;
+            left: 1em;
+            padding: 5px 5px 3px;
+            text-align: center;
+        }
+
+        .js-slideout-toggle img {
+            height: 30px;
+            width: 30px;
+        }
+
+        #menu .title {
+            border: none;
+        }
+
+        #menu ul li {
+            border-bottom: 1px solid #aaaaaa;
+            padding: 1em 0;
+        }
+
+        #menu ul li h3 {
+            font-weight: 400;
+            font-size: 1em;
+        }
+
+        .btn {
+            padding: .5em 1.5em;
+            outline: none;
+            border: 1px solid #aaaaaa;
+            border-radius: 4px;
+            color: #000000;
+        }
+
+        footer {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            padding: 4.5em 0 0;
+            color: #ffffff;
+            text-align: center;
+            /* transform: translateY(80%); */
+        }
+
+        footer>div {
+            background-color: rgba(50, 50, 50, 0.9);
+            display: none;
+            max-height: 60vh;
+            overflow: auto;
+        }
+
+        footer .btn {
+            position: absolute;
+            left: 2em;
+            top: 0em;
+        }
+
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .items .item {
+            width: 50%;
+            padding: 3em 0;
+        }
+
+        .show {
+            color: #ffffff;
+            max-width: 600px;
+            position: fixed;
+            left: 0;
+            top: 20vh;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            text-align: center;
+        }
+
+        .show h4 {
+            font-weight: normal;
+        }
+
+        .show .time {
+            font-size: 5em;
+        }
+
+        .show .time span {
+            font-size: 1rem;
+        }
+
+        .show .date.no {
+            display: none;
+        }
+
+        .show .date.yes {
+            display: block;
+        }
+
+        @media screen and (max-width: 720px) {
+            .items .item {
+                width: 100%;
+            }
+            footer > div{
+                max-height: 141px;
+            }
+            /* footer{
+                transform: translateY(90%);
+            } */
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="menu" class="menu">
+        <form action="#" id="myForm" method="post">
+            <ul>
+                <li class="title">
+                    <h2>Settings</h2>
+                </li>
+                <li>
+                    <h3>24-HOUR CLOCK</h3>
+                    <label>
+                        <input type="radio" name="hour" value="yes" checked>Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="hour" value="no">No
+                    </label>
+                </li>
+                <li>
+                    <h3>SHOW SECONDS</h3>
+                    <label>
+                        <input type="radio" name="seconds" value="yes" checked>Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="seconds" value="no">No
+                    </label>
+                </li>
+                <li>
+                    <h3>SHOW DATE</h3>
+                    <label>
+                        <input type="radio" name="date" value="yes" checked>Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="date" value="no">No
+                    </label>
+                </li>
+                <li class="title">
+                    <button class="btn">SAVE</button>
+                </li>
+            </ul>
+        </form>
+    </nav>
+    <div id="panel" class="pane">
+        <div class="js-slideout-toggle">
+            <img src="images/menu.png" alt="">
+        </div>
+        <div class="show">
+            <h4><span class="hello"></span> IT IS CURRENTLY</h4>
+            <div class="time"></div>
+            <div class="date yes"></div>
+        </div>
+        <footer>
+            <button class="btn">MORE</button>
+            <div>
+                <div class="container">
+                    <div class="items">
+                        <div class="item">
+                            <span class="week">DAY OF THE WEEK</span>
+                            <h2 class="week-con"></h2>
+                        </div>
+                        <div class="item">
+                            <span class="month">DAY OF THE MONTH</span>
+                            <h2 class="month-con"></h2>
+                        </div>
+                        <div class="item">
+                            <span class="day-year">DAY OF THE YEAR</span>
+                            <h2 class="day-year-con"></h2>
+                        </div>
+                        <div class="item">
+                            <span class="week-year">WEEK OF THE YEAR</span>
+                            <h2 class="week-year-con"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/slideout.js"></script>
+    <script src="js/luxon.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
